@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "slug": "running-shoes",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Basketball Shoes",
+    "price": 89.99,
+    "slug": "basketball-shoes",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "slug": "running-shoes1",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Basketball Shoes",
+    "price": 89.99,
+    "slug": "basketball-shoes1",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "slug": "running-shoes2",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Basketball Shoes",
+    "price": 89.99,
+    "slug": "basketball-shoes2",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "slug": "running-shoes3",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Basketball Shoes",
+    "price": 89.99,
+    "slug": "basketball-shoes3",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "slug": "running-shoes4",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Basketball Shoes",
+    "price": 89.99,
+    "slug": "basketball-shoes4",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Running Shoes",
+    "price": 59.99,
+    "slug": "running-shoes5",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Basketball Shoes",
+    "price": 89.99,
+    "slug": "basketball-shoes5",
+    "category": "shoes",
+    "img": "/assets/Shoes/shoes12.jpg"
+  }
+]
