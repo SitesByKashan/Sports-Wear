@@ -33,7 +33,7 @@ export default function Navbar() {
     setCategoriesOpen(false);
   }, [pathname]);
 
-  const pathsWithTransparentBg = ['/', '/about', '/contact', '/shoes'];
+  const pathsWithTransparentBg = ['/', '/about', '/contact', '/shoes', '/accessories', '/equipment', '/menOutfits', '/womenOutfits'];
   const navbarBgColor = pathsWithTransparentBg.includes(pathname) 
     ? (scrolled ? 'theme' : 'bg-transparent') 
     : 'theme';

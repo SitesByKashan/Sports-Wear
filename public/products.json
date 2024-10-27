@@ -94,5 +94,389 @@
     "slug": "basketball-shoes5",
     "category": "shoes",
     "img": "/assets/Shoes/shoes12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Running women",
+    "price": 59.99,
+    "slug": "running-women",
+    "category": "women",
+    "img": "/assets/women/women.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Basketball women",
+    "price": 89.99,
+    "slug": "basketball-women",
+    "category": "women",
+    "img": "/assets/women/women2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Running women",
+    "price": 59.99,
+    "slug": "running-women1",
+    "category": "women",
+    "img": "/assets/women/women3.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Basketball women",
+    "price": 89.99,
+    "slug": "basketball-women1",
+    "category": "women",
+    "img": "/assets/women/women4.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Running women",
+    "price": 59.99,
+    "slug": "running-women2",
+    "category": "women",
+    "img": "/assets/women/women5.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Basketball women",
+    "price": 89.99,
+    "slug": "basketball-women2",
+    "category": "women",
+    "img": "/assets/women/women6.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Running women",
+    "price": 59.99,
+    "slug": "running-women3",
+    "category": "women",
+    "img": "/assets/women/women7.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Basketball women",
+    "price": 89.99,
+    "slug": "basketball-women3",
+    "category": "women",
+    "img": "/assets/women/women8.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Running women",
+    "price": 59.99,
+    "slug": "running-women4",
+    "category": "women",
+    "img": "/assets/women/women9.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Basketball women",
+    "price": 89.99,
+    "slug": "basketball-women4",
+    "category": "women",
+    "img": "/assets/women/women10.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Running women",
+    "price": 59.99,
+    "slug": "running-women5",
+    "category": "women",
+    "img": "/assets/women/women11.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Basketball women",
+    "price": 89.99,
+    "slug": "basketball-women5",
+    "category": "women",
+    "img": "/assets/women/women12.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Running men",
+    "price": 59.99,
+    "slug": "running-men",
+    "category": "men",
+    "img": "/assets/mens/men.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Basketball men",
+    "price": 89.99,
+    "slug": "basketball-men",
+    "category": "men",
+    "img": "/assets/mens/men2.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Running men",
+    "price": 59.99,
+    "slug": "running-men1",
+    "category": "men",
+    "img": "/assets/mens/men3.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Basketball men",
+    "price": 89.99,
+    "slug": "basketball-men1",
+    "category": "men",
+    "img": "/assets/mens/men4.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Running men",
+    "price": 59.99,
+    "slug": "running-men2",
+    "category": "men",
+    "img": "/assets/mens/men5.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Basketball men",
+    "price": 89.99,
+    "slug": "basketball-men2",
+    "category": "men",
+    "img": "/assets/mens/men6.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Running men",
+    "price": 59.99,
+    "slug": "running-men3",
+    "category": "men",
+    "img": "/assets/mens/men7.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Basketball men",
+    "price": 89.99,
+    "slug": "basketball-men3",
+    "category": "men",
+    "img": "/assets/mens/men8.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Running men",
+    "price": 59.99,
+    "slug": "running-men4",
+    "category": "men",
+    "img": "/assets/mens/men9.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Basketball men",
+    "price": 89.99,
+    "slug": "basketball-men4",
+    "category": "men",
+    "img": "/assets/mens/men10.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Running men",
+    "price": 59.99,
+    "slug": "running-men5",
+    "category": "men",
+    "img": "/assets/mens/men11.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Basketball men",
+    "price": 89.99,
+    "slug": "basketball-men5",
+    "category": "men",
+    "img": "/assets/mens/men12.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Running Equipment",
+    "price": 59.99,
+    "slug": "running-Equipment",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Basketball Equipment",
+    "price": 89.99,
+    "slug": "basketball-Equipment",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Running Equipment",
+    "price": 59.99,
+    "slug": "running-Equipment1",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Basketball Equipment",
+    "price": 89.99,
+    "slug": "basketball-Equipment1",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Running Equipment",
+    "price": 59.99,
+    "slug": "running-Equipment2",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Basketball Equipment",
+    "price": 89.99,
+    "slug": "basketball-Equipment2",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Running Equipment",
+    "price": 59.99,
+    "slug": "running-Equipment3",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Basketball Equipment",
+    "price": 89.99,
+    "slug": "basketball-Equipment3",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Running Equipment",
+    "price": 59.99,
+    "slug": "running-Equipment4",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Basketball Equipment",
+    "price": 89.99,
+    "slug": "basketball-Equipment4",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Running Equipment",
+    "price": 59.99,
+    "slug": "running-Equipment5",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Basketball Equipment",
+    "price": 89.99,
+    "slug": "basketball-Equipment5",
+    "category": "Equipment",
+    "img": "/assets/Equipment/eq12.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Running Accessories",
+    "price": 59.99,
+    "slug": "running-Accessories",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Basketball Accessories",
+    "price": 89.99,
+    "slug": "basketball-Accessories",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Running Accessories",
+    "price": 59.99,
+    "slug": "running-Accessories1",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Basketball Accessories",
+    "price": 89.99,
+    "slug": "basketball-Accessories1",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Running Accessories",
+    "price": 59.99,
+    "slug": "running-Accessories2",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Basketball Accessories",
+    "price": 89.99,
+    "slug": "basketball-Accessories2",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Running Accessories",
+    "price": 59.99,
+    "slug": "running-Accessories3",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Basketball Accessories",
+    "price": 89.99,
+    "slug": "basketball-Accessories3",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Running Accessories",
+    "price": 59.99,
+    "slug": "running-Accessories4",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Basketball Accessories",
+    "price": 89.99,
+    "slug": "basketball-Accessories4",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Running Accessories",
+    "price": 59.99,
+    "slug": "running-Accessories5",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Basketball Accessories",
+    "price": 89.99,
+    "slug": "basketball-Accessories5",
+    "category": "Accessories",
+    "img": "/assets/Accessories/acc12.jpg"
   }
 ]

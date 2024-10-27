@@ -25,8 +25,8 @@ const MenOutfits = () => {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data: Product[] = await response.json();
-        const mens = data.filter(product => product.category === 'mens');
-        setProducts(mens);
+        const shoes = data.filter(product => product.category === 'men');
+        setProducts(shoes);
       } catch (error) {
         console.error("Failed to fetch products:", error);
         setError("Failed to fetch products. Please try again later.");
@@ -42,7 +42,7 @@ const MenOutfits = () => {
   return (
     <div>
       <HeroSection
-        images={["/assets/Mens/men6.jpg"]}
+        images={["/assets/Mens/men11.jpg"]}
         title={title} paragraph={paragraph}
       />
       {error && <p>{error}</p>}
@@ -52,12 +52,12 @@ const MenOutfits = () => {
     <div className="flex flex-wrap -m-4">
     {products.map(product => (
       <div key={product.id} className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <Link href={`/mens/${product.slug}`} className="block relative h-48 rounded overflow-hidden">
+        <Link href={`/${product.slug}`} className="block relative h-48 rounded overflow-hidden">
           <Image 
           width={2000}
           height={2000}
           alt="ecommerce" 
-          className="object-cover object-center w-full h-full block" 
+          className="object-fill object-center w-full h-full block" 
           src={product.img}
           />
         </Link>

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 interface HeroSectionProps {
@@ -39,7 +40,12 @@ export default function HeroSection({ images, title, paragraph }: HeroSectionPro
             key={index}
             className="slide w-full h-full flex items-center justify-center relative"
           >
-            <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+            <Image 
+            width={2000}
+            height={2000}
+            src={image} 
+            alt={`Slide ${index + 1}`} 
+            className="w-full h-full object-fill" />
             <div className="overlay"></div>
           </div>
         ))}
