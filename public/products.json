@@ -96,7 +96,7 @@
     "img": "/assets/Shoes/shoes12.jpg"
   },
   {
-    "id": 13,
+    "id": 1,
     "name": "Running women",
     "price": 59.99,
     "slug": "running-women",
@@ -104,7 +104,7 @@
     "img": "/assets/women/women.jpg"
   },
   {
-    "id": 14,
+    "id": 2,
     "name": "Basketball women",
     "price": 89.99,
     "slug": "basketball-women",
@@ -112,7 +112,7 @@
     "img": "/assets/women/women2.jpg"
   },
   {
-    "id": 15,
+    "id": 3,
     "name": "Running women",
     "price": 59.99,
     "slug": "running-women1",
@@ -120,7 +120,7 @@
     "img": "/assets/women/women3.jpg"
   },
   {
-    "id": 16,
+    "id": 4,
     "name": "Basketball women",
     "price": 89.99,
     "slug": "basketball-women1",
@@ -128,7 +128,7 @@
     "img": "/assets/women/women4.jpg"
   },
   {
-    "id": 17,
+    "id": 5,
     "name": "Running women",
     "price": 59.99,
     "slug": "running-women2",
@@ -136,7 +136,7 @@
     "img": "/assets/women/women5.jpg"
   },
   {
-    "id": 18,
+    "id": 6,
     "name": "Basketball women",
     "price": 89.99,
     "slug": "basketball-women2",
@@ -144,7 +144,7 @@
     "img": "/assets/women/women6.jpg"
   },
   {
-    "id": 19,
+    "id": 7,
     "name": "Running women",
     "price": 59.99,
     "slug": "running-women3",
@@ -152,7 +152,7 @@
     "img": "/assets/women/women7.jpg"
   },
   {
-    "id": 20,
+    "id": 8,
     "name": "Basketball women",
     "price": 89.99,
     "slug": "basketball-women3",
@@ -160,7 +160,7 @@
     "img": "/assets/women/women8.jpg"
   },
   {
-    "id": 21,
+    "id": 9,
     "name": "Running women",
     "price": 59.99,
     "slug": "running-women4",
@@ -168,7 +168,7 @@
     "img": "/assets/women/women9.jpg"
   },
   {
-    "id": 22,
+    "id": 10,
     "name": "Basketball women",
     "price": 89.99,
     "slug": "basketball-women4",
@@ -176,7 +176,7 @@
     "img": "/assets/women/women10.jpg"
   },
   {
-    "id": 23,
+    "id": 11,
     "name": "Running women",
     "price": 59.99,
     "slug": "running-women5",
@@ -184,7 +184,7 @@
     "img": "/assets/women/women11.jpg"
   },
   {
-    "id": 24,
+    "id": 12,
     "name": "Basketball women",
     "price": 89.99,
     "slug": "basketball-women5",
@@ -192,7 +192,7 @@
     "img": "/assets/women/women12.jpg"
   },
   {
-    "id": 25,
+    "id": 1,
     "name": "Running men",
     "price": 59.99,
     "slug": "running-men",
@@ -200,7 +200,7 @@
     "img": "/assets/mens/men.jpg"
   },
   {
-    "id": 26,
+    "id": 2,
     "name": "Basketball men",
     "price": 89.99,
     "slug": "basketball-men",
@@ -208,7 +208,7 @@
     "img": "/assets/mens/men2.jpg"
   },
   {
-    "id": 27,
+    "id": 3,
     "name": "Running men",
     "price": 59.99,
     "slug": "running-men1",
@@ -216,7 +216,7 @@
     "img": "/assets/mens/men3.jpg"
   },
   {
-    "id": 28,
+    "id": 4,
     "name": "Basketball men",
     "price": 89.99,
     "slug": "basketball-men1",
@@ -224,7 +224,7 @@
     "img": "/assets/mens/men4.jpg"
   },
   {
-    "id": 29,
+    "id": 5,
     "name": "Running men",
     "price": 59.99,
     "slug": "running-men2",
@@ -232,7 +232,7 @@
     "img": "/assets/mens/men5.jpg"
   },
   {
-    "id": 30,
+    "id": 6,
     "name": "Basketball men",
     "price": 89.99,
     "slug": "basketball-men2",
@@ -240,7 +240,7 @@
     "img": "/assets/mens/men6.jpg"
   },
   {
-    "id": 31,
+    "id": 7,
     "name": "Running men",
     "price": 59.99,
     "slug": "running-men3",
@@ -248,7 +248,7 @@
     "img": "/assets/mens/men7.jpg"
   },
   {
-    "id": 32,
+    "id": 8,
     "name": "Basketball men",
     "price": 89.99,
     "slug": "basketball-men3",
@@ -256,7 +256,7 @@
     "img": "/assets/mens/men8.jpg"
   },
   {
-    "id": 33,
+    "id": 9,
     "name": "Running men",
     "price": 59.99,
     "slug": "running-men4",
@@ -264,7 +264,7 @@
     "img": "/assets/mens/men9.jpg"
   },
   {
-    "id": 34,
+    "id": 10,
     "name": "Basketball men",
     "price": 89.99,
     "slug": "basketball-men4",
@@ -272,7 +272,7 @@
     "img": "/assets/mens/men10.jpg"
   },
   {
-    "id": 35,
+    "id": 11,
     "name": "Running men",
     "price": 59.99,
     "slug": "running-men5",
@@ -280,7 +280,7 @@
     "img": "/assets/mens/men11.jpg"
   },
   {
-    "id": 36,
+    "id": 12,
     "name": "Basketball men",
     "price": 89.99,
     "slug": "basketball-men5",
