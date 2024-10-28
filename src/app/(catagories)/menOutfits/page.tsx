@@ -38,7 +38,7 @@ const MenOutfits = () => {
 
   const title = "MEN OUTFITS";
   const paragraph =
-    "Explore SportWear’s top-tier Sports Shoes, built for comfort, support, and durability—perfect for running, training, and competition!";
+    "Explore SportWear’s top-tier Men’s Outfits, designed for style, comfort, & performance perfect for running, training, & competition!";
   return (
     <div>
       <HeroSection
@@ -52,7 +52,7 @@ const MenOutfits = () => {
     <div className="flex flex-wrap -m-4">
     {products.map(product => (
       <div key={product.id} className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <Link href={`/${product.slug}`} className="block relative h-48 rounded overflow-hidden">
+        <Link href={`/${product.slug}`} className="block relative h-96 md:h-72 rounded overflow-hidden">
           <Image 
           width={2000}
           height={2000}

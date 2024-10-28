@@ -38,11 +38,11 @@ const Accessories = () => {
 
   const title = "ACCESSORIES";
   const paragraph =
-    "Explore SportWear’s top-tier Sports Shoes, built for comfort, support, and durability—perfect for running, training, and competition!";
+    "Explore SportWear’s top-tier Sports Accessories, designed for performance, convenience, and style—perfect and overall athletic experience!";
   return (
     <div>
       <HeroSection
-        images={["/assets/accessories/acc6.jpg"]}
+        images={["/assets/Accessories/acc6.jpg"]}
         title={title} paragraph={paragraph}
       />
       {error && <p>{error}</p>}
@@ -52,7 +52,7 @@ const Accessories = () => {
     <div className="flex flex-wrap -m-4">
     {products.map(product => (
       <div key={product.id} className="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <Link href={`/${product.slug}`} className="block relative h-48 rounded overflow-hidden">
+        <Link href={`/${product.slug}`} className="block relative h-96 md:h-72 rounded overflow-hidden">
           <Image 
           width={2000}
           height={2000}

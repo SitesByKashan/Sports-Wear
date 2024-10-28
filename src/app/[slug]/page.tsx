@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 interface Product {
   id: number;
   name: string;
+  description: string;
   price: number;
   slug: string;
   category: string;
@@ -117,69 +118,73 @@ const ProductDetailPage = () => {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-16 mt-6 lg:mt-0">
               <h2 className="text-sm title-font wordTheme tracking-widest">SPORTS WEAR</h2>
               <h1 className="wordTheme text-3xl title-font font-medium pb-3">{product.name}</h1>
-              <p className="leading-relaxed">Fam locavore kickstarter distillery. Mixtape chillwave...</p>
-              <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-                <div className="flex">
-                  <span className="mr-3">Color</span>
-                  <button
-                    className={`border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none ${
-                      color === '' ? 'bg-white' : ''
-                    }`}
-                    onClick={() => handleColorChange('')}>
-                    <span className="block w-full h-full" style={{ backgroundColor: 'transparent' }}></span>
-                  </button>
-                  <button
-                    className={`border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none ${
-                      color === 'gray' ? 'ring-2 ring-indigo-500' : ''
-                    }`}
-                    onClick={() => handleColorChange('gray')}
-                  />
-                  <button
-                    className={`border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none ${
-                      color === 'blue' ? 'ring-2 ring-indigo-500' : ''
-                    }`}
-                    onClick={() => handleColorChange('blue')}
-                  />
-                </div>
-                <div className="flex ml-5 items-center border border-gray-300 rounded">
-                    <button
-                      className="border-0 py-2 px-4 focus:outline-none"
-                      onClick={() => setQuantity(quantity > 1 ? quantity - 1 : 1)}
-                    >
-                      -
-                    </button>
-                    <input
-                      type="number"
-                      className="border-0 text-center w-12 focus:outline-none"
-                      value={quantity}
-                      onChange={(e) => setQuantity(Math.max(1, Number(e.target.value)))}
-                      min="1"
-                    />
-                    <button
-                      className="border-0 py-2 px-4 focus:outline-none"
-                      onClick={() => setQuantity(quantity + 1)}
-                    >
-                      +
-                    </button>
-                  </div>
-                <div className="flex ml-6 items-center">
-                  <span className="mr-3">Size</span>
-                  <div className="relative">
-                    <select
-                      className="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10"
-                      onChange={handleSizeChange}
-                      value={size}>
-                      <option value="">Select Size</option>
-                      <option value="SM">SM</option>
-                      <option value="M">M</option>
-                      <option value="L">L</option>
-                      <option value="XL">XL</option>
-                    </select>
-                    
-                  </div>
-                </div>
-                
-              </div>
+              <p className="leading-relaxed">{product.description}</p>
+              <div className="flex flex-wrap md:flex-nowrap mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5 gap-4">
+  {/* Color Options */}
+  <div className="flex items-center">
+    <span className="mr-3 text-sm md:text-base">Color</span>
+    <button
+      className={`border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none ${
+        color === '' ? 'bg-white' : ''
+      }`}
+      onClick={() => handleColorChange('')}>
+      <span
+        className="block w-full h-full"
+        style={{ backgroundColor: 'transparent' }}></span>
+    </button>
+    <button
+      className={`border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none ${
+        color === 'gray' ? 'ring-2 ring-indigo-500' : ''
+      }`}
+      onClick={() => handleColorChange('gray')}
+    />
+    <button
+      className={`border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none ${
+        color === 'blue' ? 'ring-2 ring-indigo-500' : ''
+      }`}
+      onClick={() => handleColorChange('blue')}
+    />
+  </div>
+
+  {/* Quantity Selector */}
+  <div className="flex items-center ml-20 md:ml-0 border border-gray-300 rounded">
+    <button
+      className="border-0 py-2 px-4 focus:outline-none"
+      onClick={() => setQuantity(quantity > 1 ? quantity - 1 : 1)}>
+      -
+    </button>
+    <input
+      type="number"
+      className="border-0 text-center w-12 focus:outline-none"
+      value={quantity}
+      onChange={(e) => setQuantity(Math.max(1, Number(e.target.value)))}
+      min="1"
+    />
+    <button
+      className="border-0 py-2 px-4 focus:outline-none"
+      onClick={() => setQuantity(quantity + 1)}>
+      +
+    </button>
+  </div>
+
+  {/* Size Selector */}
+  <div className="flex items-center">
+    <span className="mr-3 text-sm md:text-base">Size</span>
+    <div className="relative">
+      <select
+        className="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-sm md:text-base pl-3 pr-10"
+        onChange={handleSizeChange}
+        value={size}>
+        <option value="">Select Size</option>
+        <option value="SM">SM</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+    </div>
+  </div>
+</div>
+
               <div className="flex flex-col md:flex-row items-start">
                 <span className="title-font font-medium text-2xl text-gray-900">
                   Price: ${product.price.toFixed(2)}

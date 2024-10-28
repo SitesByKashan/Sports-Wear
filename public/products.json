@@ -5,7 +5,8 @@
     "price": 59.99,
     "slug": "running-shoes",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes.jpg"
+    "img": "/assets/Shoes/shoes.jpg",
+    "description": "Lightweight running shoes designed for comfort and long-distance running."
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "price": 89.99,
     "slug": "basketball-shoes",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes2.jpg"
+    "img": "/assets/Shoes/shoes2.jpg",
+    "description": "Durable basketball shoes providing excellent grip and ankle support."
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "price": 59.99,
     "slug": "running-shoes1",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes3.jpg"
+    "img": "/assets/Shoes/shoes3.jpg",
+    "description": "Performance running shoes with breathable mesh upper and cushioned sole."
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "price": 89.99,
     "slug": "basketball-shoes1",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes4.jpg"
+    "img": "/assets/Shoes/shoes4.jpg",
+    "description": "High-performance basketball shoes for both indoor and outdoor courts."
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "price": 59.99,
     "slug": "running-shoes2",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes5.jpg"
+    "img": "/assets/Shoes/shoes5.jpg",
+    "description": "Comfortable running shoes suitable for everyday wear and training."
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "price": 89.99,
     "slug": "basketball-shoes2",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes6.jpg"
+    "img": "/assets/Shoes/shoes6.jpg",
+    "description": "Basketball shoes with a sleek design and superior cushioning."
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "price": 59.99,
     "slug": "running-shoes3",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes7.jpg"
+    "img": "/assets/Shoes/shoes7.jpg",
+    "description": "Stylish running shoes providing traction on all surfaces."
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "price": 89.99,
     "slug": "basketball-shoes3",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes8.jpg"
+    "img": "/assets/Shoes/shoes8.jpg",
+    "description": "Basketball shoes offering maximum agility and flexibility."
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "price": 59.99,
     "slug": "running-shoes4",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes9.jpg"
+    "img": "/assets/Shoes/shoes9.jpg",
+    "description": "Designed for marathon runners with enhanced breathability."
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "price": 89.99,
     "slug": "basketball-shoes4",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes10.jpg"
+    "img": "/assets/Shoes/shoes10.jpg",
+    "description": "High-traction basketball shoes for quick pivots and fast breaks."
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "price": 59.99,
     "slug": "running-shoes5",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes11.jpg"
+    "img": "/assets/Shoes/shoes11.jpg",
+    "description": "Lightweight, breathable running shoes with arch support."
   },
   {
     "id": 12,
@@ -93,390 +104,439 @@
     "price": 89.99,
     "slug": "basketball-shoes5",
     "category": "shoes",
-    "img": "/assets/Shoes/shoes12.jpg"
+    "img": "/assets/Shoes/shoes12.jpg",
+    "description": "Enhanced basketball shoes with shock absorption technology."
   },
   {
-    "id": 1,
-    "name": "Running women",
+    "id": 13,
+    "name": "Trail Runner Outfit",
     "price": 59.99,
-    "slug": "running-women",
-    "category": "women",
-    "img": "/assets/Women/women.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Basketball women",
-    "price": 89.99,
-    "slug": "basketball-women",
-    "category": "women",
-    "img": "/assets/Women/women2.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Running women",
-    "price": 59.99,
-    "slug": "running-women1",
-    "category": "women",
-    "img": "/assets/Women/women3.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Basketball women",
-    "price": 89.99,
-    "slug": "basketball-women1",
-    "category": "women",
-    "img": "/assets/Women/women4.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Running women",
-    "price": 59.99,
-    "slug": "running-women2",
-    "category": "women",
-    "img": "/assets/Women/women5.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Basketball women",
-    "price": 89.99,
-    "slug": "basketball-women2",
-    "category": "women",
-    "img": "/assets/Women/women6.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Running women",
-    "price": 59.99,
-    "slug": "running-women3",
-    "category": "women",
-    "img": "/assets/Women/women7.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Basketball women",
-    "price": 89.99,
-    "slug": "basketball-women3",
-    "category": "women",
-    "img": "/assets/Women/women8.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Running women",
-    "price": 59.99,
-    "slug": "running-women4",
-    "category": "women",
-    "img": "/assets/Women/women9.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Basketball women",
-    "price": 89.99,
-    "slug": "basketball-women4",
-    "category": "women",
-    "img": "/assets/Women/women10.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Running women",
-    "price": 59.99,
-    "slug": "running-women5",
-    "category": "women",
-    "img": "/assets/Women/women11.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Basketball women",
-    "price": 89.99,
-    "slug": "basketball-women5",
-    "category": "women",
-    "img": "/assets/Women/women12.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Running men",
-    "price": 59.99,
-    "slug": "running-men",
+    "slug": "trail-runner-outfit",
     "category": "men",
-    "img": "/assets/Mens/men.jpg"
+    "img": "/assets/Mens/men.jpg",
+    "description": "Perfect for running enthusiasts, this outfit offers lightweight shorts, a breathable T-shirt, and moisture-wicking socks for ultimate comfort."
   },
   {
-    "id": 2,
-    "name": "Basketball men",
+    "id": 14,
+    "name": "Pro Basketball Kit",
     "price": 89.99,
-    "slug": "basketball-men",
+    "slug": "pro-basketball-kit",
     "category": "men",
-    "img": "/assets/Mens/men2.jpg"
+    "img": "/assets/Mens/men2.jpg",
+    "description": "A complete basketball set featuring a performance jersey, breathable shorts, and cushioned socks to enhance your game on the court."
   },
   {
-    "id": 3,
-    "name": "Running men",
+    "id": 15,
+    "name": "City Runner Set",
     "price": 59.99,
-    "slug": "running-men1",
+    "slug": "city-runner-set",
     "category": "men",
-    "img": "/assets/Mens/men3.jpg"
+    "img": "/assets/Mens/men3.jpg",
+    "description": "Designed for urban runners, this set includes a sweat-resistant T-shirt and running tights, helping you stay fresh during morning jogs."
   },
   {
-    "id": 4,
-    "name": "Basketball men",
+    "id": 16,
+    "name": "Court Dominator Kit",
     "price": 89.99,
-    "slug": "basketball-men1",
+    "slug": "court-dominator-kit",
     "category": "men",
-    "img": "/assets/Mens/men4.jpg"
+    "img": "/assets/Mens/men4.jpg",
+    "description": "Dominate the game with this high-performance basketball outfit, offering durable fabric and superior breathability for intense matches."
   },
   {
-    "id": 5,
-    "name": "Running men",
+    "id": 17,
+    "name": "Endurance Track Outfit",
     "price": 59.99,
-    "slug": "running-men2",
+    "slug": "endurance-track-outfit",
     "category": "men",
-    "img": "/assets/Mens/men5.jpg"
+    "img": "/assets/Mens/men5.jpg",
+    "description": "Built for long-distance runs, this outfit includes a sleeveless top and track pants, designed to reduce drag and maximize speed."
   },
   {
-    "id": 6,
-    "name": "Basketball men",
+    "id": 18,
+    "name": "Elite Hoops Wear",
     "price": 89.99,
-    "slug": "basketball-men2",
+    "slug": "elite-hoops-wear",
     "category": "men",
-    "img": "/assets/Mens/men6.jpg"
+    "img": "/assets/Mens/men6.jpg",
+    "description": "Look sharp and play sharper with this elite hoops outfit, offering maximum mobility and a sleek design for court-ready style."
   },
   {
-    "id": 7,
-    "name": "Running men",
+    "id": 19,
+    "name": "Sprint Runner Outfit",
     "price": 59.99,
-    "slug": "running-men3",
+    "slug": "sprint-runner-outfit",
     "category": "men",
-    "img": "/assets/Mens/men7.jpg"
+    "img": "/assets/Mens/men7.jpg",
+    "description": "Sprint like a pro with lightweight gear that supports fast movement. Includes breathable tank tops and anti-chafe shorts."
   },
   {
-    "id": 8,
-    "name": "Basketball men",
+    "id": 20,
+    "name": "Power Dunk Kit",
     "price": 89.99,
-    "slug": "basketball-men3",
+    "slug": "power-dunk-kit",
     "category": "men",
-    "img": "/assets/Mens/men8.jpg"
+    "img": "/assets/Mens/men8.jpg",
+    "description": "Jump higher and move faster with this basketball kit designed for explosive performance, featuring sweat-wicking fabrics."
   },
   {
-    "id": 9,
-    "name": "Running men",
+    "id": 21,
+    "name": "Marathon Runner Pack",
     "price": 59.99,
-    "slug": "running-men4",
+    "slug": "marathon-runner-pack",
     "category": "men",
-    "img": "/assets/Mens/men9.jpg"
+    "img": "/assets/Mens/men9.jpg",
+    "description": "Stay comfortable during long marathons with a breathable running shirt and quick-dry shorts that prevent discomfort."
   },
   {
-    "id": 10,
-    "name": "Basketball men",
+    "id": 22,
+    "name": "All-Star Basketball Gear",
     "price": 89.99,
-    "slug": "basketball-men4",
+    "slug": "all-star-basketball-gear",
     "category": "men",
-    "img": "/assets/Mens/men10.jpg"
+    "img": "/assets/Mens/men10.jpg",
+    "description": "This premium gear is built for all-star players, offering enhanced grip, breathability, and modern style."
   },
   {
-    "id": 11,
-    "name": "Running men",
+    "id": 23,
+    "name": "Off-Road Runner Set",
     "price": 59.99,
-    "slug": "running-men5",
+    "slug": "off-road-runner-set",
     "category": "men",
-    "img": "/assets/Mens/men11.jpg"
+    "img": "/assets/Mens/men11.jpg",
+    "description": "Conquer any terrain with this off-road set, including sturdy trail shoes and sweat-proof activewear."
   },
   {
-    "id": 12,
-    "name": "Basketball men",
+    "id": 24,
+    "name": "Champion’s Basketball Set",
     "price": 89.99,
-    "slug": "basketball-men5",
+    "slug": "champions-basketball-set",
     "category": "men",
-    "img": "/assets/Mens/men12.jpg"
+    "img": "/assets/Mens/men12.jpg",
+    "description": "Designed for champions, this basketball set features breathable material and maximum support for high-impact games."
   },
   {
-    "id": 1,
-    "name": "Running Equipment",
+    "id": 25,
+    "name": "Ultimate Running Gear",
     "price": 59.99,
-    "slug": "running-Equipment",
+    "slug": "ultimate-running-gear",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq.jpg"
+    "img": "/assets/Equipment/eq.jpg",
+    "description": "Get the most out of your runs with our ultimate running gear, featuring a high-performance GPS watch, hydration belt, and reflective accessories for safety."
   },
   {
-    "id": 2,
-    "name": "Basketball Equipment",
+    "id": 26,
+    "name": "Pro Basketball Gear",
     "price": 89.99,
-    "slug": "basketball-Equipment",
+    "slug": "pro-basketball-gear",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq2.jpg"
+    "img": "/assets/Equipment/eq2.jpg",
+    "description": "Elevate your game with professional basketball gear, including a premium ball, adjustable hoop, and practice cones for skill development."
   },
   {
-    "id": 3,
-    "name": "Running Equipment",
+    "id": 27,
+    "name": "Lightweight Running Essentials",
     "price": 59.99,
-    "slug": "running-Equipment1",
+    "slug": "lightweight-running-essentials",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq3.jpg"
+    "img": "/assets/Equipment/eq3.jpg",
+    "description": "These lightweight essentials include a running belt, moisture-wicking headband, and grip socks to enhance your running experience."
   },
   {
-    "id": 4,
-    "name": "Basketball Equipment",
+    "id": 28,
+    "name": "All-Star Basketball Kit",
     "price": 89.99,
-    "slug": "basketball-Equipment1",
+    "slug": "all-star-basketball-kit",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq4.jpg"
+    "img": "/assets/Equipment/eq4.jpg",
+    "description": "An all-in-one kit for basketball lovers, featuring a durable basketball, shooting sleeve, and ankle braces to protect during play."
   },
   {
-    "id": 5,
-    "name": "Running Equipment",
+    "id": 29,
+    "name": "Advanced Running Accessories",
     "price": 59.99,
-    "slug": "running-Equipment2",
+    "slug": "advanced-running-accessories",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq5.jpg"
+    "img": "/assets/Equipment/eq5.jpg",
+    "description": "Enhance your running performance with advanced accessories, including a fitness tracker, energy gel pack, and cushioned insoles."
   },
   {
-    "id": 6,
-    "name": "Basketball Equipment",
+    "id": 30,
+    "name": "Elite Basketball Training Set",
     "price": 89.99,
-    "slug": "basketball-Equipment2",
+    "slug": "elite-basketball-training-set",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq6.jpg"
+    "img": "/assets/Equipment/eq6.jpg",
+    "description": "Train like a pro with this elite basketball training set, featuring a weighted ball, dribbling goggles, and training drills guide."
   },
   {
-    "id": 7,
-    "name": "Running Equipment",
+    "id": 31,
+    "name": "Performance Running Equipment",
     "price": 59.99,
-    "slug": "running-Equipment3",
+    "slug": "performance-running-equipment",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq7.jpg"
+    "img": "/assets/Equipment/eq7.jpg",
+    "description": "Maximize your performance with our running equipment, including a compression shirt, breathable shorts, and reflective gear for nighttime runs."
   },
   {
-    "id": 8,
-    "name": "Basketball Equipment",
+    "id": 32,
+    "name": "Basketball Practice Essentials",
     "price": 89.99,
-    "slug": "basketball-Equipment3",
+    "slug": "basketball-practice-essentials",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq8.jpg"
+    "img": "/assets/Equipment/eq8.jpg",
+    "description": "Prepare for your next game with essential practice gear, including a portable hoop, shooting targets, and practice cones."
   },
   {
-    "id": 9,
-    "name": "Running Equipment",
+    "id": 33,
+    "name": "Endurance Running Kit",
     "price": 59.99,
-    "slug": "running-Equipment4",
+    "slug": "endurance-running-kit",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq9.jpg"
+    "img": "/assets/Equipment/eq9.jpg",
+    "description": "Stay fueled and hydrated with our endurance kit, which includes a hydration pack, energy chews, and a running guide."
   },
   {
-    "id": 10,
-    "name": "Basketball Equipment",
+    "id": 34,
+    "name": "Pro Basketball Training Gear",
     "price": 89.99,
-    "slug": "basketball-Equipment4",
+    "slug": "pro-basketball-training-gear",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq10.jpg"
+    "img": "/assets/Equipment/eq10.jpg",
+    "description": "Achieve your training goals with our pro gear, including resistance bands, agility ladders, and a basketball coaching guide."
   },
   {
-    "id": 11,
-    "name": "Running Equipment",
+    "id": 35,
+    "name": "Running Safety Kit",
     "price": 59.99,
-    "slug": "running-Equipment5",
+    "slug": "running-safety-kit",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq11.jpg"
+    "img": "/assets/Equipment/eq11.jpg",
+    "description": "Ensure safety during your runs with this comprehensive kit, featuring a reflective vest, LED armbands, and a personal alarm."
   },
   {
-    "id": 12,
-    "name": "Basketball Equipment",
+    "id": 36,
+    "name": "All-In-One Basketball Equipment",
     "price": 89.99,
-    "slug": "basketball-Equipment5",
+    "slug": "all-in-one-basketball-equipment",
     "category": "Equipment",
-    "img": "/assets/Equipment/eq12.jpg"
+    "img": "/assets/Equipment/eq12.jpg",
+    "description": "This all-in-one basketball equipment set includes a basketball, training ball, pump, and a carry bag for easy transport."
   },
   {
-    "id": 1,
-    "name": "Running Accessories",
+    "id": 37,
+    "name": "Essential Running Accessories",
     "price": 59.99,
-    "slug": "running-Accessories",
+    "slug": "essential-running-accessories",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc.jpg"
+    "img": "/assets/Accessories/acc.jpg",
+    "description": "Upgrade your run with essential accessories, including a lightweight running belt, moisture-wicking headband, and reflective arm bands for safety."
   },
   {
-    "id": 2,
-    "name": "Basketball Accessories",
+    "id": 38,
+    "name": "Pro Basketball Accessories",
     "price": 89.99,
-    "slug": "basketball-Accessories",
+    "slug": "pro-basketball-accessories",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc2.jpg"
+    "img": "/assets/Accessories/acc2.jpg",
+    "description": "Dominate the court with pro basketball accessories, featuring a durable backpack, sweat-wicking wristbands, and a versatile ball pump."
   },
   {
-    "id": 3,
-    "name": "Running Accessories",
+    "id": 39,
+    "name": "Premium Running Gear",
     "price": 59.99,
-    "slug": "running-Accessories1",
+    "slug": "premium-running-gear",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc3.jpg"
+    "img": "/assets/Accessories/acc3.jpg",
+    "description": "Ensure comfort and performance with premium running gear, including cushioned insoles, anti-chafing cream, and a reflective vest."
   },
   {
-    "id": 4,
-    "name": "Basketball Accessories",
+    "id": 40,
+    "name": "Basketball Performance Kit",
     "price": 89.99,
-    "slug": "basketball-Accessories1",
+    "slug": "basketball-performance-kit",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc4.jpg"
+    "img": "/assets/Accessories/acc4.jpg",
+    "description": "Enhance your basketball skills with this performance kit, which includes a shooting sleeve, training resistance bands, and a ball maintenance kit."
   },
   {
-    "id": 5,
-    "name": "Running Accessories",
+    "id": 41,
+    "name": "Comfort Running Accessories",
     "price": 59.99,
-    "slug": "running-Accessories2",
+    "slug": "comfort-running-accessories",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc5.jpg"
+    "img": "/assets/Accessories/acc5.jpg",
+    "description": "Experience ultimate comfort during your runs with these accessories, featuring ergonomic hydration bottles, breathable socks, and a cooling towel."
   },
   {
-    "id": 6,
-    "name": "Basketball Accessories",
+    "id": 42,
+    "name": "All-In-One Basketball Accessories",
     "price": 89.99,
-    "slug": "basketball-Accessories2",
+    "slug": "all-in-one-basketball-accessories",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc6.jpg"
+    "img": "/assets/Accessories/acc6.jpg",
+    "description": "This all-in-one basketball accessories pack includes a gym towel, rebounder net, and training cones for enhancing your practice sessions."
   },
   {
-    "id": 7,
-    "name": "Running Accessories",
+    "id": 43,
+    "name": "Running Comfort Pack",
     "price": 59.99,
-    "slug": "running-Accessories3",
+    "slug": "running-comfort-pack",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc7.jpg"
+    "img": "/assets/Accessories/acc7.jpg",
+    "description": "Maximize your comfort on the run with a pack that includes padded running gloves, adjustable headbands, and a lightweight windbreaker."
   },
   {
-    "id": 8,
-    "name": "Basketball Accessories",
+    "id": 44,
+    "name": "Basketball Skill Development Gear",
     "price": 89.99,
-    "slug": "basketball-Accessories3",
+    "slug": "basketball-skill-development-gear",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc8.jpg"
+    "img": "/assets/Accessories/acc8.jpg",
+    "description": "Improve your game with skill development gear, including a dribble training aid, jump rope, and a practice basketball."
   },
   {
-    "id": 9,
-    "name": "Running Accessories",
+    "id": 45,
+    "name": "Running Accessories Bundle",
     "price": 59.99,
-    "slug": "running-Accessories4",
+    "slug": "running-accessories-bundle",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc9.jpg"
+    "img": "/assets/Accessories/acc9.jpg",
+    "description": "This bundle includes all the running essentials: a reflective waist pack, moisture-wicking shirts, and a pair of adjustable running gloves."
   },
   {
-    "id": 10,
-    "name": "Basketball Accessories",
+    "id": 46,
+    "name": "Basketball Training Essentials",
     "price": 89.99,
-    "slug": "basketball-Accessories4",
+    "slug": "basketball-training-essentials",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc10.jpg"
+    "img": "/assets/Accessories/acc10.jpg",
+    "description": "Prepare for your next game with basketball training essentials, including a conditioning ladder, practice balls, and performance shorts."
   },
   {
-    "id": 11,
-    "name": "Running Accessories",
+    "id": 47,
+    "name": "Ultimate Running Accessories",
     "price": 59.99,
-    "slug": "running-Accessories5",
+    "slug": "ultimate-running-accessories",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc11.jpg"
+    "img": "/assets/Accessories/acc11.jpg",
+    "description": "Discover the ultimate in running accessories, featuring a smart fitness tracker, armband for phones, and a hydration belt."
   },
   {
-    "id": 12,
-    "name": "Basketball Accessories",
+    "id": 48,
+    "name": "Basketball Game Day Set",
     "price": 89.99,
-    "slug": "basketball-Accessories5",
+    "slug": "basketball-game-day-set",
     "category": "Accessories",
-    "img": "/assets/Accessories/acc12.jpg"
+    "img": "/assets/Accessories/acc12.jpg",
+    "description": "Get ready for game day with this complete set, including an official game ball, team spirit gear, and a durable carrying case."
+  },
+  {
+    "id": 49,
+    "name": "Women's Running Essentials",
+    "price": 59.99,
+    "slug": "womens-running-essentials",
+    "category": "Women",
+    "img": "/assets/Women/women.jpg",
+    "description": "Stay comfortable and stylish during your runs with these essentials, featuring breathable tank tops, high-performance leggings, and lightweight running shoes."
+  },
+  {
+    "id": 50,
+    "name": "Women's Basketball Performance Set",
+    "price": 89.99,
+    "slug": "womens-basketball-performance-set",
+    "category": "Women",
+    "img": "/assets/Women/women2.jpg",
+    "description": "Elevate your game with this performance set, which includes moisture-wicking jerseys, supportive sports bras, and durable shorts designed for agility."
+  },
+  {
+    "id": 51,
+    "name": "Women's Running Gear",
+    "price": 59.99,
+    "slug": "womens-running-gear",
+    "category": "Women",
+    "img": "/assets/Women/women3.jpg",
+    "description": "Designed for optimal comfort, this running gear features padded running shoes, adjustable headbands, and lightweight windbreakers for unpredictable weather."
+  },
+  {
+    "id": 52,
+    "name": "Women's Basketball Training Outfit",
+    "price": 89.99,
+    "slug": "womens-basketball-training-outfit",
+    "category": "Women",
+    "img": "/assets/Women/women4.jpg",
+    "description": "Perfect for practice, this outfit includes a performance tank, flexible shorts, and supportive sneakers to help enhance your skills on the court."
+  },
+  {
+    "id": 53,
+    "name": "Stylish Women's Running Attire",
+    "price": 59.99,
+    "slug": "stylish-womens-running-attire",
+    "category": "Women",
+    "img": "/assets/Women/women5.jpg",
+    "description": "Run in style with this attire, featuring colorful leggings, a matching sports top, and a lightweight jacket for those chilly mornings."
+  },
+  {
+    "id": 54,
+    "name": "Women's Basketball Game Day Gear",
+    "price": 89.99,
+    "slug": "womens-basketball-game-day-gear",
+    "category": "Women",
+    "img": "/assets/Women/women6.jpg",
+    "description": "Get ready for game day with this gear, which includes a stylish jersey, breathable shorts, and team-themed accessories."
+  },
+  {
+    "id": 55,
+    "name": "Comfortable Women's Running Outfit",
+    "price": 59.99,
+    "slug": "comfortable-womens-running-outfit",
+    "category": "Women",
+    "img": "/assets/Women/women7.jpg",
+    "description": "Designed for maximum comfort, this outfit features a soft, breathable top and high-waisted leggings to keep you feeling great during your run."
+  },
+  {
+    "id": 56,
+    "name": "Women's Basketball Training Kit",
+    "price": 89.99,
+    "slug": "womens-basketball-training-kit",
+    "category": "Women",
+    "img": "/assets/Women/women8.jpg",
+    "description": "This training kit includes a moisture-wicking tank, lightweight shorts, and supportive footwear designed for rigorous training sessions."
+  },
+  {
+    "id": 57,
+    "name": "Fashionable Women's Running Gear",
+    "price": 59.99,
+    "slug": "fashionable-womens-running-gear",
+    "category": "Women",
+    "img": "/assets/Women/women9.jpg",
+    "description": "Combine style and functionality with fashionable running gear that includes trendy prints and breathable fabrics for ultimate performance."
+  },
+  {
+    "id": 58,
+    "name": "Women's Basketball All-Star Outfit",
+    "price": 89.99,
+    "slug": "womens-basketball-all-star-outfit",
+    "category": "Women",
+    "img": "/assets/Women/women10.jpg",
+    "description": "Stand out on the court with this all-star outfit, featuring an eye-catching jersey, matching shorts, and comfortable sneakers for all-day wear."
+  },
+  {
+    "id": 59,
+    "name": "Versatile Women's Running Outfit",
+    "price": 59.99,
+    "slug": "versatile-womens-running-outfit",
+    "category": "Women",
+    "img": "/assets/Women/women11.jpg",
+    "description": "This versatile outfit is perfect for any run, combining a lightweight top, stretchy leggings, and reflective elements for safety."
+  },
+  {
+    "id": 60,
+    "name": "Women's Basketball Skills Development Set",
+    "price": 89.99,
+    "slug": "womens-basketball-skills-development-set",
+    "category": "Women",
+    "img": "/assets/Women/women12.jpg",
+    "description": "Enhance your basketball skills with this development set, which includes a supportive jersey, flexible shorts, and training accessories."
   }
 ]
