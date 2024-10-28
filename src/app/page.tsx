@@ -1,6 +1,7 @@
 import HeroSection from '@/components/HeroSection';
 import Reviews from '@/components/Reviews';
 import Stats from '@/components/Stats';
+import TopSelling from '@/components/TopSelling';
 import WhyChoseUs from '@/components/WhyChooseUs';
 
 
@@ -19,6 +20,7 @@ const HomePage = () => {
     <>
      <HeroSection images={images} title={title} paragraph={paragraph} />
      <WhyChoseUs/>
+     <TopSelling/>
      <Stats/>
       <Reviews/>
     </>
