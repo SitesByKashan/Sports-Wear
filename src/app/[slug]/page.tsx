@@ -147,7 +147,7 @@ const ProductDetailPage = () => {
   </div>
 
   {/* Quantity Selector */}
-  <div className="flex items-center ml-16 md:ml-0 border border-gray-300 rounded">
+  <div className="flex items-center ml-6 md:ml-0 border border-gray-300 rounded">
     <button
       className="border-0 py-2 px-4 focus:outline-none"
       onClick={() => setQuantity(quantity > 1 ? quantity - 1 : 1)}>
