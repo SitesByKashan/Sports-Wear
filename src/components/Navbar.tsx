@@ -68,7 +68,8 @@ export default function Navbar() {
         </div>
 
         <a className="flex title-font font-medium items-center mx-auto md:mx-0 whitespace-nowrap">
-          <span className="ml-3 text-xl">SPORTS WEAR</span>
+        <span className="ml-3 text-3xl font-extrabold italic">SPORTS WEAR</span>
+
         </a>
 
         {/* Cart Icon on the right */}
