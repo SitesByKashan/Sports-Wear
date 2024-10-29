@@ -1,3 +1,4 @@
+import Gallery from '@/components/Gallery';
 import HeroSection from '@/components/HeroSection';
 import Reviews from '@/components/Reviews';
 import Stats from '@/components/Stats';
@@ -21,6 +22,7 @@ const HomePage = () => {
      <HeroSection images={images} title={title} paragraph={paragraph} />
      <WhyChoseUs/>
      <TopSelling/>
+     <Gallery/>
      <Stats/>
       <Reviews/>
     </>

@@ -140,13 +140,13 @@ const Cart = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => 
       <button onClick={onClose} className="p-2 text-xl absolute top-0 right-0">
         <AiFillCloseCircle />
       </button>
-      <h2 className="text-xl text-center py-4">Shopping Cart</h2>
+      <h2 className="md:text-xl text-lg text-center py-4">Shopping Cart</h2>
       {cartItems.length === 0 ? (
         <p className="text-center">Your cart is empty.</p>
       ) : (
         <ul>
           {cartItems.map(item => (
-            <li key={item.id} className="flex justify-around items-center py-2 border-b">
+            <li key={item.id} className="flex justify-around items-center py-2 border-b text-base md:text-lg">
               <div className="flex flex-col">
                 <span>{item.name}</span>
                 <span>({item.color} / {item.size})</span>

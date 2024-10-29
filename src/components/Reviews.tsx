@@ -38,7 +38,7 @@ export default function Reviews() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-3xl font-medium title-font wordTheme mb-12 text-center">Reviews</h1>
+        <h1 className="text-4xl font-bold title-font text-center mb-10 tracking-wider wordTheme">REVIEWS</h1>
         <div
           ref={scrollRef}
           className="flex overflow-x-auto space-x-4"
