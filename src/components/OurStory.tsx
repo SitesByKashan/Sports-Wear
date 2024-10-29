@@ -8,7 +8,7 @@ const Ourstory = () => {
 
         <div className="items-center max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div className="font-light text-gray-500 sm:text-lg ">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold wordTheme">We  reinvent the wheel</h2>
+            <h2 className="mb-4 text-3xl md:text-4xl tracking-tight font-extrabold wordTheme">We  reinvent the wheel</h2>
             <p className="mb-4">
               We specialize in premium sportswear designed for athletes and fitness enthusiasts. Our collection combines comfort, durability, and style to help you perform at your best. Whether you&apos;re hitting the gym, the field, or the streets, our products are built to match your pace.
             </p>

@@ -31,8 +31,7 @@ const OurVission = () => {
             {/* Right side */}
             <div className="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
             <p className="theme text-3xl tracking-wide pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[10%] lg:right-1/4 text-white">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the standard dummy text ever since the 1500s..
+            Our vision is to empower athletes and fitness enthusiasts with innovative sportswear that enhances performance, boosts confidence, and promotes an active lifestyle. 
               </p>
             </div>
           </div>
