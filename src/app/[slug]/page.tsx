@@ -4,6 +4,7 @@ import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import { toast, ToastContainer } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
+import Link from 'next/link';
 
 interface Product {
   id: number;
@@ -196,9 +197,9 @@ const ProductDetailPage = () => {
                     onClick={handleAddToCart}>
                     Add To Cart
                   </button>
-                  <button className="button w-full md:w-auto border-0 py-2 px-6 focus:outline-none text-center">
+                  <Link href={'/checkout'}><button className="button w-full md:w-auto border-0 py-2 px-6 focus:outline-none text-center">
                     Buy Now
-                  </button>
+                  </button></Link>
                 </div>
               </div>
             </div>
