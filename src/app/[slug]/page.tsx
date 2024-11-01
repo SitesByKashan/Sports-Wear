@@ -4,7 +4,6 @@ import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import { toast, ToastContainer } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
-import Link from 'next/link';
 
 interface Product {
   id: number;

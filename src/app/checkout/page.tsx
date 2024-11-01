@@ -22,7 +22,7 @@ export default function Checkout() {
 
   useEffect(() => {
     const storedProducts = JSON.parse(localStorage.getItem('cart') || '[]');
-    const total = storedProducts.reduce((sum: number, item: { price: any; quantity: any; }) => {
+    const total = storedProducts.reduce((sum: number, item: { price: number; quantity: number; }) => {
       return sum + (item.price || 0) * (item.quantity || 1); 
     }, 0);
 
