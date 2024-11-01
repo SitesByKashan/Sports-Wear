@@ -193,13 +193,10 @@ const ProductDetailPage = () => {
                 <div className="flex flex-col md:flex-row w-full md:w-auto md:ml-auto space-y-2 md:space-y-0 md:space-x-2 mt-2 md:mt-0">
                   
                   <button
-                    className="button w-full md:w-auto border-0 py-2 px-6 focus:outline-none text-center"
+                    className="button w-full md:w-auto border-0 py-2 px-6 focus:outline-none text-center "
                     onClick={handleAddToCart}>
                     Add To Cart
                   </button>
-                  <Link href={'/checkout'}><button className="button w-full md:w-auto border-0 py-2 px-6 focus:outline-none text-center">
-                    Buy Now
-                  </button></Link>
                 </div>
               </div>
             </div>

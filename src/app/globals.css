@@ -164,7 +164,7 @@ html, body {
 }
 .button:hover{
   background-color: white;
-  background: var(--background-Color);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-color: var(--background-Color);

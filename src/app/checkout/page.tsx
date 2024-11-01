@@ -21,12 +21,9 @@ export default function Checkout() {
   const [totalAmount, setTotalAmount] = useState(0);
 
   useEffect(() => {
-    // Retrieve products from local storage
     const storedProducts = JSON.parse(localStorage.getItem('cart') || '[]');
-    
-    // Calculate total price
     const total = storedProducts.reduce((sum: number, item: { price: any; quantity: any; }) => {
-      return sum + (item.price || 0) * (item.quantity || 1); // Assuming each item has price and quantity properties
+      return sum + (item.price || 0) * (item.quantity || 1); 
     }, 0);
 
     setTotalAmount(total);
@@ -44,13 +41,11 @@ export default function Checkout() {
   const handlePlaceOrder = () => {
     const { fullName, address, city, zipCode, phoneNumber, emailAddress } = formData;
 
-    // Validate required fields
     if (!fullName || !address || !city || !zipCode || !phoneNumber || !emailAddress) {
       toast.error("Please fill in all required fields.");
       return;
     }
 
-    // If debit card payment is selected, validate card fields
     if (paymentMethod === "debitCard") {
       const { cardNumber, cardHolderName, expiryDate, cvv } = formData;
       if (!cardNumber || !cardHolderName || !expiryDate || !cvv) {
@@ -87,7 +82,7 @@ export default function Checkout() {
   }, []);
 
   return (
-    <section className="flex flex-col items-center px-6 py-20 checkout lg:flex-row lg:px-20 mt-20">
+    <section className="flex flex-col items-center px-6 py-20 checkout lg:flex-row lg:px-20 mt-12">
       <ToastContainer position="top-right" autoClose={3000} />
       <div className="p-8 max-w-2xl mx-auto theme rounded-lg shadow-lg animate-on-scroll">
         <h1 className="text-3xl font-bold text-center text-white mb-8">Checkout</h1>

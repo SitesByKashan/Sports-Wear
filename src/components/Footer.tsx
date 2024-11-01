@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-medium wordTheme tracking-widest text-sm mb-3">PAGES</h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-600 hover:text-white">First Link</a>
@@ -31,7 +31,7 @@ export default function Footer() {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-medium wordTheme tracking-widest text-sm mb-3">CATEGORIES</h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-600 hover:text-white">First Link</a>
@@ -48,7 +48,7 @@ export default function Footer() {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-medium wordTheme tracking-widest text-sm mb-3">CATEGORIES</h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-600 hover:text-white">First Link</a>
@@ -65,22 +65,30 @@ export default function Footer() {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-white">First Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-white">Second Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-white">Third Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-white">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
+  <h2 className="title-font font-medium wordTheme tracking-widest text-sm mb-3">FOLLOW US</h2>
+  <nav className="list-none mb-10">
+    <li>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-white mb-3">
+        <i className="fab fa-instagram mr-2"></i> Instagram
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-white mb-3">
+        <i className="fab fa-linkedin mr-2"></i> LinkedIn
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-white mb-3">
+        <i className="fab fa-facebook mr-2"></i> Facebook
+      </a>
+    </li>
+    <li>
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-white mb-3">
+        <i className="fab fa-whatsapp mr-2"></i> WhatsApp
+      </a>
+    </li>
+  </nav>
+</div>
           </div>
         </div>
         <div className="theme bg-opacity-90 text-white">
