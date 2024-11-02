@@ -46,7 +46,7 @@ const SplashScreen = () => {
   return isVisible ? (
     <div className={`splashContainer ${!isVisible ? 'fadeOut' : ''}`}>
       <div className="splashContent">
-        <h1>Sports Wear</h1>
+        <h1 className='text-3xl md:text-4xl font-extrabold italic'>Sports Wear</h1>
       </div>
     </div>
   ) : null;
