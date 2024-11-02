@@ -82,7 +82,7 @@ const Cart = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => 
         {cartItems.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)}
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center p-9">
-        <Link href="/checkout" className="button p-2 px-4">Proceed to Checkout</Link>
+        <Link href="/checkout" className="cartbutton p-2 px-4">Proceed to Checkout</Link>
         <button onClick={handleClearCart} className="p-1 text-red-500 mt-4 md:mt-0">Clear Cart</button>
       </div>
     </div>

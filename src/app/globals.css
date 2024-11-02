@@ -163,7 +163,17 @@ html, body {
   border: 2px solid;
 }
 .button:hover{
-  background-color: white;
+  color: var(--background-Color);
+  background: white;
+  border-color: var(--background-Color);
+}
+.cartbutton{
+  background: var(--background-Color);
+  color: white;
+  border-radius: 50px;
+  border: 2px solid;
+}
+.cartbutton:hover{
   background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
