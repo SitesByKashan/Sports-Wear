@@ -7,7 +7,7 @@ const OurVission = () => {
       <section className="max-w-screen-xl py-16 mx-auto px-7 sm:px-14" id="projects">
         <div className="flex items-center justify-center gap-12 pb-12">
           <div className="flex-1 hidden h-px bg-slate-50 sm:block"></div>
-          <h2 className="text-4xl font-bold text-center wordTheme">Our Vission</h2>
+          <h2 className="text-4xl font-bold text-center wordTheme mb-6 md:mb-0">Our Vission</h2>
           <div className="flex-1 hidden h-px bg-slate-50 sm:block"></div>
         </div>
         <div>
